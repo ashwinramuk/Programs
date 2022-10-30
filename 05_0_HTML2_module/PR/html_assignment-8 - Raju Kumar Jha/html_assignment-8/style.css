@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.left_block {
+    background-color: green;
+    width: 400px;
+    height: 450px;
+    margin: 0px 0px 15px 10px;
+}
+
+.right_block {
+    padding-left: 50px;
+    max-width: 350px;
+}
+
+.card {
+    display: flex;
+    margin: 20px 5px 5px 15px;
+    height: fit-content;
+    background-color: white;
+    max-height: 450px;
+    flex-flow: row warp;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+}
+
+.left_block>img {
+  height: 95%;
+  width: 105%;
+}
+
+.right_block>p {
+    margin: 50px 0;
+}

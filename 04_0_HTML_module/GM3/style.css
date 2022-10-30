@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+.rectangle {
+    background-color: rgba(89, 55, 136, 0.696);
+    width:600px;
+    height:fit-content;
+    padding: 0em;
+    margin: auto;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+p {
+    color: rgba(181, 166, 202, 0.696);
+}
+h2{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+span{
+    color: rgba(131, 57, 235, 0.696);
+}
+td{
+    padding: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+table{
+    margin-top: 0px;
+}
+
+.card_details {
+    width:200px;
+    padding: 2em;
+}
+img {
+    width: 300px;
+    height:fit-content;
+    
+}
+

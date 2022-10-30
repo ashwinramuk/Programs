@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>First HTML Page</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="This page is the first web page that we are learning" />
+
+  <link rel="stylesheet" href="styles/style.css" />
+
+
+</head>
+
+<body>
+  <section id="form-container">
+    <h2>Student Details</h2>
+    <form action="http://localhost:3000/user-submit" method="POST">
+      <input type="hidden" name="loadtime" value="8:12pm" />
+      <div class="field-container">
+        <label for="full_name">Name</label>
+        <input type="text" id="full_name" name="full_name" placeholder="John Doe" value="Kuntal Banerjee" required />
+      </div>
+      <div class="field-container">
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="email" placeholder="john.doe@gmail.com" required />
+      </div>
+      <div class="field-container">
+        <label for="u_password">Password</label>
+        <input type="password" id="u_password" name="user_password" placeholder="Enter password" />
+      </div>
+      <div class="field-container">
+        <label for="address">Address</label>
+        <textarea id="address" rows="6" placeholder="221B Baker Street"></textarea>
+      </div>
+      <div class="field-container">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+          <option value="NA">Prefer not to say</option>
+        </select>
+      </div>
+      <div class="field-container">
+        <h4>Please select your hobbies</h4>
+        <div class="cr-container">
+          <input type="checkbox" id="interest_sports" name="interest_sports" />
+          <label for="interest_sports">Sports</label>
+        </div>
+        <div class="cr-container">
+          <input type="checkbox" id="interest_movies" name="interest_movies" />
+          <label for="interest_movies">Movies</label>
+        </div>
+        <div class="cr-container">
+          <input type="checkbox" id="interest_dance" name="interest_dance" />
+          <label for="interest_dance">Dance</label>
+        </div>
+      </div>
+      <div class="field-container">
+        <h4>Food type</h4>
+        <div class="cr-container">
+          <input type="radio" id="radio_veg" name="food_habit" value="veg" />
+          <label for="radio_veg">Veg</label>
+        </div>
+        <div class="cr-container">
+          <input type="radio" id="radio_non_veg" name="food_habit" value="non_veg" />
+          <label for="radio_non_veg">Non Veg</label>
+        </div>
+        <div class="cr-container">
+          <input type="radio" id="radio_vegan" name="food_habit" value="vegan" />
+          <label for="radio_vegan">Vegan</label>
+        </div>
+      </div>
+      <div class="field-container">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div class="field-container">
+        <label for="tob">Time of Birth</label>
+        <input type="time" id="tob" name="tob" />
+      </div>
+      <div class="field-container">
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" name="resume" />
+        <small>Please upload below 20mb</small>
+      </div>
+      <div class="field-container form-footer">
+        <span>
+          <button>Cancel</button>
+        </span>
+        <span>
+          <!-- <input type="submit" value="Confirm"  /> -->
+          <button>Confirm</button>
+        </span>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>

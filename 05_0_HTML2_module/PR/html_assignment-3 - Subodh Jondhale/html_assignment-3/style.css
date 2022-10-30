@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+div {
+    margin: 100px 300px;
+}
+
+table {
+    width: fit-content;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(244, 93, 93);
+}
+
+td {
+    text-align: right;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+table tbody tr:first-child {
+    background-color: rgb(238, 174, 174);
+}
+
+table tbody tr:nth-child(2) {
+    background-color: rgb(244, 230, 230);
+}
+
+table tbody tr:nth-child(3) {
+    background-color: rgb(206, 206, 241);
+}

@@ -1,0 +1,54 @@
+form>div{
+    /* display:block; */
+    width: 50%;
+    height: 100%;
+    border:px solid skyblue;
+    /* border-style: outset; */
+    margin: auto;
+    /* background: rgb(218, 218, 218); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 2px rgb(220, 243, 252);
+}
+.header{
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+    color: white;
+    background-color: skyblue;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+}
+.form-elem-div{
+    padding: 3%;
+    
+}
+input[type="text"], [type="range"], [type="color"], [type="url"]{
+    background-color: rgb(233, 248, 254);
+    border: skyblue;
+    width: 100%;
+}
+[type="submit"]{
+    background-color: skyblue;
+    color:white;
+    padding: 10%;
+    /* margin-bottom: 20%; */
+    border:skyblue;
+    transition: 0.1s;
+}
+label[for="likeness"]{
+    display: inline-block;
+    width:60%;
+    
+}
+[type="submit"]:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.submit-btn{
+    width: 50%;
+    box-sizing: border-box;
+    border: skyblue;
+    margin: 5% auto;
+    margin-bottom: 20%;
+}

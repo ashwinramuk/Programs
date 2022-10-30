@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+#form-container {
+    width: 480px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 5% auto 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+#form-container h2{
+    text-align: center;
+}
+
+.field-container{
+    margin-bottom: 12px;
+}
+
+.field-container label{
+    display: block;
+}
+
+.field-container input,
+.field-container textarea,
+.field-container select{
+    width: 100%;
+}
+
+.field-container input,
+.field-container select{
+    height: 26px;
+}
+
+.field-container > .cr-container > label{
+    display: inline-block;
+}
+
+.field-container > h4 {
+    margin-bottom: 8px;
+}
+
+.field-container input[type="checkbox"],
+.field-container input[type="radio"],
+.field-container input[type="submit"]{
+    width: auto;
+    height: auto;
+}
+
+.field-container input[type="file"]{
+    margin-top: 12px;
+}
+
+.form-footer{
+    text-align: center;
+}

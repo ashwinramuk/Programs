@@ -1,0 +1,28 @@
+This is an example of Text Justification.
+10
+
+Question for practice from today's lecture:
+ * Given an array of strings and a number(maxWidth), format the text such that
+ * every line has exactly maxwidth characters and is both right and left aligned.
+ *
+ * Input:
+ * 1. Array of strings/words
+ * 2. A number/maxwidth
+ *
+ * Output:
+ * Sentence printed on console with right and left justification.
+ *
+ * Sample:
+ * ["This", "is", "an", "example", "of", "text", "justification."]
+ * maxwidth = 16
+ *
+ * This____is____an
+ * example__of_text
+ * justification.__
+ *
+ * ["What", "must", "be", "acknowledgement", "shall", "be"]
+ * maxwidth = 16
+ *
+ * What___must___be
+ * acknowledgement_
+ * shall_be________

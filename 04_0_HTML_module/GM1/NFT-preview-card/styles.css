@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--main-bg);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-details {
+    padding-top: 1.5rem;
+}
+h1 {
+    color: var(--white);
+    transition: 0.15s;
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+h1:hover {
+    color: var(--cyan);
+}
+
+p {
+    color: var(--soft-blue);
+    font-size: 18px;
+    line-height: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+span {
+    color: var(--soft-blue);
+}
+
+
+.card {
+    background-color: var(--card-bg);
+    width: 329px;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.card-product {
+    position: relative;
+    cursor: pointer;
+    border-radius: .6rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-product {
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 55%;
+    background-color: hsl(178deg, 100%, 50%);    
+    /* border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem; */
+    overflow: hidden;
+}
+
+.card-product img {
+    width: 100%;
+    transition: 0.15s ease;
+    cursor: pointer;
+    display: block;
+}
+
+.card-product img:hover {
+    /* content: url(images/icon-view.svg); */
+    /* background-color: hsl(178, 100%, 50%); */
+    opacity: 0.5;
+}
+
+.card-information {
+    display: flex;
+    justify-content: space-between;    
+    border-bottom: 1px solid hsl(215deg, 32%, 27%);
+    padding-bottom: 0.8rem; 
+}
+
+.ethereum-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.ethereum-container span {
+    color: var(--cyan);    
+}
+
+.ethereum-container img {
+    width: 12px;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--soft-blue);  
+    font-weight: 400;
+ 
+}
+
+.time-container img {
+    width: 18px;
+}
+
+
+
+.card-creator {
+    /* margin: 24px 0 0 0; */
+    padding-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.card-creator img {
+    width: 30px;
+    border-radius: 50%;
+    border: solid 1px var(--white);
+}
+
+
+.creator-name {
+    color: var(--white);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.creator-name:hover {
+    color: var(--cyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+    margin-top: 16px;
+}
+
+.attribution a { 
+    color: var(--cyan); 
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color:darkgrey;
+}
+#parent{
+    width: 30%;
+    margin: 10% auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+.a{
+    height: 10%;
+    width: 30%;
+    color: blue;
+    background-color: aqua;
+border: 1px solid black;
+text-align: center;
+margin: 1% 0 0 0;
+}
+.b {
+    height: 10%;
+        width: 30%;
+        color: aqua;
+    background-color:blue;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1% 0 0 0;
+   
+}

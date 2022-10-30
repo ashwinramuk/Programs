@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>Car Insurance Form</h2>
+    <form action="#" method="POST">
+        <div class="sub-container">
+        <div>
+            <label for="name">Name<span>*</span></label><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email<span>*</span></label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="gender">Gender<span>*</span></label><br>
+            <input type="radio" name="gender" id="M" value="M" required>
+            <label for="M">M</label>
+            <input type="radio" name="gender" id="M" value="F" required>
+            <label for="F">F</label>
+        </div>
+        <div>
+            <label for="cars">Car Brands</label><br>
+            <select name="cars" id="cars">
+            <option value="BMW" >BMW</option>
+            <option value="Audi" >Audi</option>
+            <option value="Mercedez" >Mercedez</option>
+            </select>
+        </div>
+        <div>
+            <label for="carage">Car Age<span>*</span></label><br>
+            <input type="number" name="carage" id="carage" placeholder="Enter Car Age in Yrs" required>
+        </div>
+        <div>
+            <label for="dop">Date of Purchase(dop)<span>*</span></label><br>
+            <input type="date" name="dop" id="dop" required>
+        </div>
+        <div>
+            <label for="password">Password<span>*</span></label><br>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="submit-btn">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>

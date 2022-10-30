@@ -1,0 +1,8 @@
+.tableborder,th,td{
+    border:1px solid black;
+    border-color: blue;
+  }
+  video{
+    width: 220px;
+    height: 180px;
+  }

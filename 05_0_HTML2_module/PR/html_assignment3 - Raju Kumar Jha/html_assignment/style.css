@@ -1,0 +1,31 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    width: 100px;
+    text-align: left;
+}
+
+td {
+    text-align: right;
+}
+
+#row1 {
+    background-color: rgb(245, 44, 44);
+}
+
+#row2{
+    background-color: rgb(214, 235, 251);
+}
+
+#row3{
+    background-color: rgb(240, 246, 250);
+}
+
+#row4 {
+    background-color: rgba(253, 212, 212, 0.8);
+}

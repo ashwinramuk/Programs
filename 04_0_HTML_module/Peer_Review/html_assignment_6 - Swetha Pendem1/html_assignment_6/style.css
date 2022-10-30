@@ -1,0 +1,64 @@
+body{
+
+    background-color: rgb(69, 128, 69);
+
+}
+.button{
+    color:black;  
+    background-color:bisque;
+}
+h1{
+    background-color: black;
+    color:antiquewhite;
+    text-align: center;
+    margin:auto;
+    width: 100vw;
+    height: 40vh;
+
+}
+.Actors{
+    background-color: black;
+    color:antiquewhite;
+    text-align: center;
+    margin:auto;
+    width: 100vw;
+    height: 40vh;
+    
+}
+
+.Quotes{
+    background-color: black;
+    color:antiquewhite;
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    width: 100vw;
+    height: 40vh;
+}
+p
+{
+    color:aliceblue;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 35%;
+  padding: 15px;
+  text-align: center;
+  color: antiquewhite;
+}
+.row1{
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column1 {
+    flex: 35%;
+    padding: 15px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: larger;
+  }

@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+}
+.main-container{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    /* padding: 1%; */
+    background-color: white;
+    border-left:px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px skyblue;
+}
+h2{
+    text-align: center;
+    background-color: skyblue;
+    margin-top:0;
+    padding: 3%;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px
+}
+.sub-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sub-container>div{
+    flex-basis:100%;
+    margin: 2px 2px;
+    padding: 2% 5%;
+}
+input,select{
+    width:100%;
+    background-color: rgb(247, 247, 247);
+    border: 0;
+    border-bottom:1px solid blue;
+}
+[type=radio]{
+    width:fit-content;
+}
+
+[type="submit"]{
+    background-color: skyblue;
+}
+[type="submit"]:hover{
+    background-color: blue;
+    cursor:pointer
+}
+.submit-btn{
+    align-self: center;
+}

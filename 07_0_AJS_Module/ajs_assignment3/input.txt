@@ -1,0 +1,3 @@
+2
+Welcome to this Javascript Guide!
+Hello My name is XYZ

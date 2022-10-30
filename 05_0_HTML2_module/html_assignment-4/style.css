@@ -1,0 +1,9 @@
+body>h1{
+    text-align: center;
+}
+
+[data-ns-test]{
+    padding: 10px;
+    margin: 10px;
+    border: 0.8px solid burlywood;
+}

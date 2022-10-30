@@ -1,0 +1,23 @@
+.row>*{
+float: left;
+background-color: aqua;
+}
+.col3{
+    width:25%
+}
+img{
+    width: 100%;
+    min-width: 480px;
+    max-width: 500px;
+}
+@media screen and (max-width:576px) {
+    .col3{
+        
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px) and (max-width:760px) {
+    .col3{
+        width:75%
+    }
+}

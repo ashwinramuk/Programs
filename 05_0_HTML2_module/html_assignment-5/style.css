@@ -1,0 +1,26 @@
+.holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightcyan;
+    border: 1px solid black;    
+    position:relative;
+    height:1200px;
+    
+}
+.holder>div{
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    width:20px;
+    text-align: center;
+    border: 1px solid black;
+    height: 20px;
+    margin: 10px 0;
+}
+.holder:nth-child(2n)>div{
+    position: fixed;
+    top:0;
+    left:0;
+}

@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+#parent-container{
+    background-color: burlywood;
+    height:700px;
+    width:50%;
+    margin:0 auto;
+    border-radius: 8px;
+}
+#parent-container >  h1{
+    text-align: center;
+    font-size: 50px;
+}
+.child-container label{
+    display:block;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.child-container{
+    margin-left:10px;
+    margin-bottom: 50px;
+}
+.child-container input{
+    width:50%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#btn{
+    margin-left: 350px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}

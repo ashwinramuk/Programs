@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(172, 255, 47, 0.181)
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+li {
+    margin: 30px;
+}

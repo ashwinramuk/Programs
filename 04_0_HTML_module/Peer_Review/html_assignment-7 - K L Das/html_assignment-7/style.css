@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 15px;
+    border: 1px black;
+}
+
+.right {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 1px red;
+    
+}
+
+.left1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 1px red;
+}
+
+.right1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 1px black;
+    margin-top: 25%;
+    text-align: center;
+}

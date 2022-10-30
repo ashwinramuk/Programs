@@ -1,0 +1,12 @@
+5
+aabbccddeeeeffg
+abc
+ab
+caa
+ccdbb
+
+5
+2
+1
+0
+0

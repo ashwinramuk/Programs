@@ -1,0 +1,9 @@
+img{
+    border-radius: 140px;
+}
+div{
+    padding: 20px;
+}
+#skills h3, #projects h3{
+    text-decoration: underline;
+}

@@ -1,0 +1,4 @@
+Ashwin male 12345 mech B
+kumar male 1345 CS A
+Paneer female 1234 CS B
+1234
