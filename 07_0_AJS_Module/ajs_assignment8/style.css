@@ -1,0 +1,32 @@
+table,td,th{
+    text-align: left;
+    width: fit-content;
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 2%;
+    margin:10px auto;
+    max-width: 400px;
+}
+h2{
+    text-align: center;
+}
+input[type='number']{
+    text-align: start;
+    width: 90%;
+    border: none;
+}
+input[type='text']{
+    text-align: start;
+    width: 90%;
+    border: none;
+}
+td:nth-child(2n)::before{
+    content: '\20B9';
+    margin-right: 2px;
+}
+.price{
+    text-align: start;
+    
+  
+    margin-left: 40px;  
+}

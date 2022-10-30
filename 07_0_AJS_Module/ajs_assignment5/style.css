@@ -1,0 +1,66 @@
+.grid-container{
+    display:grid;
+    width:50%;
+    margin: auto;
+    grid-template-columns:auto auto auto auto;
+    gap: 3% 1%;
+    box-shadow: 3px 2px 3px gray;
+    padding: 3% 4px;
+    background-color: black;
+    align-content: center;
+    border-radius: 5px;
+
+}
+.grid-item0{
+    padding: auto 3% ;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: end;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(255, 24, 170);
+    font-size: 0.95em;
+    width: 100%;
+}
+.grid-item1{
+    padding: auto 3% ;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: end;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+}
+/* button{
+    width: 100%;
+} */
+
+.grid-btn-num{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+}
+.grid-btn-num:hover,.grid-btn-otr:hover,.grid-btn-opr:hover{
+    background-color: rgb(35, 35, 35);
+}
+.grid-btn-num:active,.grid-btn-otr:active,.grid-btn-opr:active{
+    background-color: rgb(20, 20, 20);
+}
+.grid-btn-otr,.grid-btn-opr{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+}
+#ans{
+    background-color: rgb(0, 179, 255);
+}
+#ans:hover{
+    background-color: rgb(0, 153, 255);
+}
+#ans:active{
+    background-color: rgb(0, 123, 255);
+}

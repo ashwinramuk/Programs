@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+    <h2>Shopping Cart</h2>
+    <input type="text" id="item-name-input" placeholder="Enter item name">
+    <input type="text" id="item-price-input" placeholder="Enter item price">
+    <button id="add">Add</button>
+</div>
+<table id="table">
+    <thead>
+        <tr>
+        <th data-ns-test="item-name">item Name</th>
+        <th data-ns-test="item-price">item price</th>
+    </tr>
+    </thead>
+    <tbody id="table">
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Grand Total</td>
+            <td id="grandTotal" data-ns-test="grandTotal">0</td>
+        </tr>
+    </tfoot>
+</table>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+<!-- Two input fields should be displayed that take name and price as input
+A button with innerText Add should be rendered
+When the add button is clicked, list should be updated and rendered through a table
+data-ns-test="item-name" and data-ns-test="item-price" should be used to label name and price in table
+item-name-input and item-price-input should be used as id for name and price input fields
+Total price of all elements in the list should be displayed in an element with data-ns-test="grandTotal". This element should only have the value of the total and no other string.
+Input fields should be cleared once element has been added to the list
+Initially, table should have only one row with grandTotal as 0
+Invalid input should not be accepted
+ -->

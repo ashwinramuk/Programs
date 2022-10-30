@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main-container">
+    <div id="sub-cotainer">
+    <input type="text" placeholder="0" id="input" disabled>
+    </div>
+    <div id="sub-cotainer">
+    <input type="button" class="numbers" value="7" id="block7">
+    <input type="button" class="numbers" value="8" id="block8">
+    <input type="button" class="numbers" value="9" id="block9">
+    <input type="button" class="operator" value="/" id="divide">
+</div>
+<div id="sub-cotainer">
+    <input type="button" class="numbers" value="4" id="block4">
+    <input type="button" class="numbers" value="5" id="block5">
+    <input type="button" class="numbers" value="6" id="block6">
+    <input type="button" class="operator" value="*" id="multiply">
+</div>
+<div id="sub-cotainer">
+    <input type="button" class="numbers" value="1" id="block1">
+    <input type="button" class="numbers" value="2" id="block2">
+    <input type="button" class="numbers" value="3" id="block3">
+    <input type="button" class="operator" value="+" id="plus">
+</div>
+<div id="sub-cotainer">
+    <input type="button" class="numbers" value="." id="dot">
+    <input type="button" class="numbers" value="0" id="block0">
+    <input type="button" value="clr" id="clr">
+    <input type="button" class="operator" value="-" id="minus">
+</div>
+    <input type="button" value="=" id="ans">
+</div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+<!-- Create number buttons with id "block0" to "block9"
+Create buttons for operations with ids "plus", "minus", "multiply", "divide" for the respective operation and make one clear button
+Create button for decimal operations with id "dot" for respective operation
+There should be a button that, on click, displays the answer. This button should have id="ans"
+There should be a reset button that, on click, clears the answer. This button should have id="clr"
+On division by 0, the answer should be 'Infinity'
+On division of 0/0 it should give 'NaN'
+The element where input/output is displayed should be of input type and have id="input". The value should get updated with every calculation
+ -->

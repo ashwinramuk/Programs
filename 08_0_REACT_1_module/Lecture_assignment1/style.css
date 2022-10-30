@@ -1,0 +1,37 @@
+#main-container{
+    width:70%;
+    margin:40px auto;
+}
+#final-status-bar{
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 7px;
+    margin-top: 10px;
+    height: 10px;
+}
+#progress-bar-animation{
+    animation: status 10s;
+    width:100%;
+    border: 0px solid blue;
+    border-radius: 7px;
+    height: 10px;
+    background-color: rgb(251, 120, 181);
+}
+#progress-bar-setInterval{
+    width:0%;
+    border: 0px solid blue;
+    border-radius: 7px;
+    height: 10px;
+    background-color: rgb(159, 212, 255);
+}
+
+@keyframes status {
+    from {
+        width:0%;
+        background-color: rgb(120, 192, 251);
+
+    }
+    to {
+        width:100%;
+        background-color: rgb(251, 120, 181);
+    }
+}

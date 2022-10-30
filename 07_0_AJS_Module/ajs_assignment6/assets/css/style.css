@@ -1,0 +1,20 @@
+.main-container{
+    width:fit-content;
+    margin: auto;
+    padding: 3%;
+    align-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px;
+}
+div{
+    padding: 3%;
+}
+button, [type="button"]{
+    background-image: url(assets/images/rock.png);
+    background-size: cover;
+    cursor:pointer;
+}
+table, td, tr{
+    text-align: center;
+}

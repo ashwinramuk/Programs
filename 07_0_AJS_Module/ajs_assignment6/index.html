@@ -1,0 +1,87 @@
+<!-- Rock Paper Scissors
+
+Let's build the game of  Rock, Paper and Scissors! 
+Learn about the game- 'https://en.wikipedia.org/wiki/Rock_paper_scissors' 
+
+This is how you may proceed:
+
+Take number of turns in a game from the user ( an input box of type number )
+Start the game when the user clicks the play button
+User can select (Rock, Paper, Scissors ) from clickable DOM object ( such as button, div, image etc ) 
+You have to keep count of User Points, Computer Points, turns left and result of the round. You have to show what computer chooses as text 
+If there's no round left then show game result
+Do Not hide input box and play button 
+Show the round Result after each round
+
+Details ( attribute = ) :-
+Eg :- data-ns-test="attribute value given below"
+Use “game-number” attribute-value for INPUT Tag element (number of turns in the game)
+Use “play-game” attribute-value for the play button
+Use “rock”, “paper”, “scissors” attribute-values for rock, paper, scissors (clickable DOM objects) respectively.
+Use “computer-choose” attribute-value which renders “SCISSORS”, “PAPER” or “ROCK” for computer choice in the game.
+Use “round-result” attribute-value to show the result of the particular round which renders “WON”, “TIE” and “LOSE” after each round.
+Use “rounds-left”, “user-points”, and “computer-points” attribute-values for rounds left, user points, and computer points respectively which renders the number of round-left, user-points, and computer-points, and updates them after each round.
+Use “game-result” attribute-value which will have values “WON”, “TIE” or “LOSE” to show the result of the game.
+Create a window.computerChoose property denoting computer choice having value in [0, 1, 2] in each round for ["ROCK", "PAPER", "SCISSORS"] respectively.
+
+
+
+Submission :
+Create a folder named `ajs_assignment6`
+Compress your folder to zip format and submit it
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2 style="text-align:center">Rock Paper Scissor</h2>
+        <div class="play">
+            <input type="number" name="noOfTurns" id="turns" data-ns-test="game-number" placeholder="Enter Number of Turns">
+            <input type="button" value="play" data-ns-test="play-game">
+        </div>
+        <div class="user">User Choice:-
+            <button data-ns-test="rock" class="user-choice" value="rock" disabled>rock</button>
+            <button data-ns-test="paper" class="user-choice" value="paper" disabled>paper</button>
+            <button data-ns-test="scissors" class="user-choice" value="scissors" disabled>scissors</button>
+        </div>
+        <div class="computer" >Computer Choice:- 
+            <strong data-ns-test="computer-choose"></strong>
+        </div>
+        <div class="table">
+        <table>
+            <tr>
+                <td>User Points</td>
+                <td>Turns Left</td>
+                <td>Computer Points</td> 
+            </tr>
+            <tr>
+                <td  data-ns-test="user-points">0</td>
+                <td  data-ns-test="rounds-left">0</td>
+                <td  data-ns-test="computer-points">0</td>
+
+            </tr>
+            <tr>
+                
+                <td >Round Result</td>
+                <td></td>
+                <td >Game Result</td>
+            </tr>
+            <tr>
+                <td data-ns-test="round-result"></td>
+                <td></td>
+                <td data-ns-test="game-result"></td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

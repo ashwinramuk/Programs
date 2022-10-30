@@ -1,0 +1,16 @@
+#main-container{
+    min-width: 300px;
+    width:40%;
+    border-radius: 10px;
+    margin:10px auto;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 2px 2px 2px gray;
+    background-color: whitesmoke;
+}
+p{
+    font-size: 40px;
+}
+button{
+    border-radius: 5px;
+}

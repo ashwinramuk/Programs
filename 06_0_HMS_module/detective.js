@@ -9,28 +9,31 @@ function readLine() {
 }
 
 // -------- Do NOT edit anything above this line ----------
-let noOfTestCases = parseInt(readLine());
-while(noOfTestCases--){
-	let msgRcvd = readLine().toLowerCase();
-	let msgGesd = readLine().toLowerCase();
+function guessPossible(msgRcvd,msgGssd){
 	let msgMap = new Map();
-    let flag = true
 	for(let i=0;i<msgRcvd.length;i++){
 		if(!msgMap.has(msgRcvd[i])){
 			msgMap.set(msgRcvd[i],1)
 		}else{
 			msgMap.set(msgRcvd[i],msgMap.get(msgRcvd[i])+1)
 		}
-	}for(let i=0;i<msgGesd.length;i++){
-		if(!msgMap.has(msgGesd[i])){
-			console.log("NO");flag=false;break;
-		}else{
-            // console.log(msgGesd[i],msgMap.get(msgGesd[i]))
-			if(msgMap.get(msgGesd[i])>1){
-				msgMap.set(msgGesd[i],msgMap.get(msgGesd[i])-1)
+	}
+	for(let i=0;i<msgGssd.length;i++){
+		if(msgMap.has(msgGssd[i])){
+			if(msgMap.get(msgGssd[i])===1){
+				msgMap.delete(msgGssd[i])
 			}else{
-				msgMap.delete(msgGesd[i])
-			}	
+				msgMap.set(msgGssd[i],msgMap.get(msgGssd[i])-1)
+			}
+		}else{
+			return "NO"
 		}
-	}if(flag) console.log("YES")
+	}return "YES"
+}
+let noOfTestCases = parseInt(readLine());
+while(noOfTestCases--){
+	let msgRcvd = readLine().split(" ").join("").toLowerCase()
+	// console.log(msgRcvd)
+	let msgGssd = readLine().split(" ").join("").toLowerCase()
+	console.log(guessPossible(msgRcvd,msgGssd))
 }

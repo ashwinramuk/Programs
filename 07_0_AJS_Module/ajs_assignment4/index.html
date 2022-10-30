@@ -19,21 +19,21 @@
         <input type="number" name="item-price" id="item-price-input" placeholder="Item Price" required>
     </div> 
     <div>
-        <input type="submit" value="Add" onclick="addItemToCart()">
+        <button type="submit">Add</button>
     </div>
 </form>
 <hr>
 
     <table>
         <thead>
-            <th data-ns-test="item-name">Name</th>
-            <th data-ns-test="item-price">Price</th>
-    </thead>
+            <th data-ns-test="item-name"></th>
+            <th data-ns-test="item-price"></th>
+        </thead>
         <tbody id="cartTable">
         </tbody>
         <tfoot>
             <td>Grand Total</td>
-            <td id="grandTotal">0</td>
+            <td data-ns-test="grandTotal">0</td>
         </tfoot>
     
     </table>

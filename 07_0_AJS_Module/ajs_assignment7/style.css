@@ -1,0 +1,13 @@
+.main-container{
+    width:50vmin;
+    height:400px;
+    padding: 3%;
+    margin: 5% auto;
+    text-align: center;
+    box-shadow: 0px 2px 10px grey;
+    border-radius: 10px;
+    background-color: rgb(245, 255, 205);
+}
+input{
+    margin-top: 10px;
+}

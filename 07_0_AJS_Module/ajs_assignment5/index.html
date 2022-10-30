@@ -1,0 +1,57 @@
+<!-- Calculator
+
+Create a basic calculator using HTML, CSS and JAVASCRIPT which perform simple +, - , /, * operations. Make it clean and pretty.
+
+
+Details:
+Create number buttons with id "block0" to "block9"
+Create buttons for operations with ids "plus", "minus", "multiply", "divide" for the respective operation and make one clear button
+Create button for decimal operations with id "dot" for respective operation
+There should be a button that, on click, displays the answer. This button should have id="ans"
+There should be a reset button that, on click, clears the answer. This button should have id="clr"
+On division by 0, the answer should be 'Infinity'
+On division of 0/0 it should give 'NaN'
+The element where input/output is displayed should be of input type and have id="input". The value should get updated with every calculation
+
+Submission :
+Create a folder named `ajs_assignment5`
+Compress your folder to zip format and submit it.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator grid-container">
+        <input class="grid-item0" type="text" id="input0" value="" disabled>
+        <input class="grid-item1" type="number" id="input" value="0" disabled>
+        <button class="grid-btn-otr" id="clr-entry" value="CE">CE</button>
+        <button class="grid-btn-otr" id="clr" value="C">C</button>
+        <button class="grid-btn-otr" id="backspace" value="<"><</button>
+        <button class="grid-btn-opr" id="divide" value="/">/</button>
+        <button class="grid-btn-num" id="block7" value="7" onclick="display()">7</button>
+        <button class="grid-btn-num" id="block8" value="8" onclick="display()">8</button>
+        <button class="grid-btn-num" id="block9" value="9" onclick="display()">9</button>
+        <button class="grid-btn-opr" id="multiply" value="*">*</button>
+        <button class="grid-btn-num" id="block4" value="4" onclick="display()">4</button>
+        <button class="grid-btn-num" id="block5" value="5" onclick="display()">5</button>
+        <button class="grid-btn-num" id="block6" value="6" onclick="display()">6</button>
+        <button class="grid-btn-opr" id="minus" value="-">-</button>
+        <button class="grid-btn-num" id="block1" value="1" onclick="display()">1</button>
+        <button class="grid-btn-num" id="block2" value="2" onclick="display()">2</button>
+        <button class="grid-btn-num" id="block3" value="3" onclick="display()">3</button>
+        <button class="grid-btn-opr" id="plus" value="+">+</button>
+        <button class="grid-btn-otr" id="negative" value="+/-">+/-</button>
+        <button class="grid-btn-num" id="block0" value="0" onclick="display()">0</button>
+        <button class="grid-btn-otr" id="dot" value=".">.</button>
+        <button class="grid-btn-num" id="ans" value="=">=</button>
+    </div>
+
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
